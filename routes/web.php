@@ -18,6 +18,4 @@ Route::get('/', function () {
 });
 
 
-Route::get('/get-temperature', function () {
-    return view('welcome');
-});
+Route::get('/temperature', 'TemperatureController@index')->name('temperature');
