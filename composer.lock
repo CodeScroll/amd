@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6558f74828bca9ebecac73d90cea4b1a",
+    "content-hash": "47f931c9b788189b93831b16fcd68700",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1949,6 +1949,60 @@
                 "source": "https://github.com/bobthecow/psysh/tree/v0.10.8"
             },
             "time": "2021-04-10T16:23:39+00:00"
+        },
+        {
+            "name": "rakibdevs/openweather-laravel-api",
+            "version": "v1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/RakibDevs/openweather-laravel-api.git",
+                "reference": "726ca04f00512ef3747140f670ff94574e8caaf2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/RakibDevs/openweather-laravel-api/zipball/726ca04f00512ef3747140f670ff94574e8caaf2",
+                "reference": "726ca04f00512ef3747140f670ff94574e8caaf2",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^6.3.1|^7.0.1",
+                "php": "^7.0|^8.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "RakibDevs\\Weather\\WeatherServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "RakibDevs\\Weather\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Md. Rakibul Islam",
+                    "email": "rakib1708@gmail.com"
+                }
+            ],
+            "description": "Laravel package to connect https://openweathermap.org/ to get weather data for any location on the globe immediately",
+            "keywords": [
+                "api",
+                "laravel",
+                "open-weather",
+                "weather"
+            ],
+            "support": {
+                "issues": "https://github.com/RakibDevs/openweather-laravel-api/issues",
+                "source": "https://github.com/RakibDevs/openweather-laravel-api/tree/v1.3"
+            },
+            "time": "2021-01-25T18:31:11+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
