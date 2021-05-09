@@ -9,7 +9,6 @@ class TemperatureController extends Controller
 {
     function index(Request $request){
 
-
         $wt = new Weather();
 
         $info = $wt->getCurrentByCity('Thessaloniki');
